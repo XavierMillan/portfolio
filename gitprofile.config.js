@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'XavierMillan', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,53 +11,48 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'xavier-millan',
+    twitter: '',
     facebook: '',
-    instagram: '',
+    instagram: 'xavi__m',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.github.io',
+    website: 'xaviermillan.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'xavierm@stanford.edu',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/e/2PACX-1vQDRjMKxDQN12Ual10Zl-mrYvUkvdu4zOQETdGc0VC2EiXrrKyB-nFa-I283JYwY0EDynEsKmS7U4lz/pub', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Java',
+    'Python',
     'JavaScript',
-    'React.js',
+    'C++',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
+    'Google Cloud',
+    'AWS',
     'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Google',
+      position: 'Computer Science Summer Institute',
+      from: 'July 2022',
+      to: 'August 2022',
+      companyLink: 'https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Stanford',
+      position: 'Frosh Council Representative and Executive Team Co-Chair',
+      from: 'October 2022',
+      to: 'Present',
+      companyLink: 'https://stanford.edu',
     },
   ],
   /* certifications: [
@@ -69,27 +64,27 @@ const config = {
     },
   ], */
   education: [
+    // {
+    //   institution: 'Institution Name',
+    //   degree: 'Degree',
+    //   from: '2015',
+    //   to: '2019',
+    // },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Stanfrd University',
+      degree: 'Bachelor of Science in Computer Science',
+      from: '2022',
+      to: '2026',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'xaviermillan', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-KPC9H4WHGT', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
